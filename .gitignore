@@ -1,0 +1,12 @@
+# Model weights and datasets
+*.pt
+*.mp4
+*.mov
+*.MOV
+dataset/
+runs/
+images/
+images2/
+videos/
+__pycache__/
+.ipynb_checkpoints/

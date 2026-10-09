@@ -1,0 +1,9 @@
+# The tracking code targets the older supervision API, so versions are pinned.
+ultralytics<=8.3.40
+supervision==0.1.0
+numpy<1.24
+opencv-python
+tqdm
+# ByteTrack is cloned from source inside the notebook:
+#   https://github.com/ifzhang/ByteTrack
+# and pulls in cython_bbox, onemetric, loguru, lap, thop.
